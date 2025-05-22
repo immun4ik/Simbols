@@ -5,7 +5,7 @@ export default class Team {
 
   add(character) {
     if (this.members.has(character)) {
-      throw new Error('���� �������� ��� ���� � �������');
+      throw new Error('Etot personazh uzhe est v comande');
     }
     this.members.add(character);
   }
